@@ -206,7 +206,7 @@ parser.add_option('--nsconfig', dest='nsconfig', default=None, help="Path to the
 parser.add_option('--dbhost', dest='dbhost', default=None, help="Database host, if no NSCONFIG given")
 parser.add_option('--dbuser', dest='dbuser', default=None, help="Database user, if no NSCONFIG given")
 parser.add_option('--dbpwd', dest='dbpwd', default=None, help="Database password, if no NSCONFIG given")
-parser.add_option('--validduration', dest='validduration', default=86400, help="Valid duration of this record, in seconds (default: 1 month)")
+parser.add_option('--validduration', dest='validduration', default=86400, help="Valid duration of this record, in seconds (default: 1 day)")
 options, args = parser.parse_args()
 
 record_id = options.recordid
