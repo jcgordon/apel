@@ -17,6 +17,7 @@
 #
 #  v1.0.0 initial release
 #  v1.0.1 removed site debug printouts that were screwing up the output
+#  V-jcg changes v1
 #
 
 __version__ = "1.0.1"
